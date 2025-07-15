@@ -27,3 +27,36 @@ The dataset consists of 389 survey responses collected from university students 
 - Content type: MEMES_AND_HUMOR, NEWS_AND_CURRENT_EVENTS, EDUCATIONAL_CONTENT, FITNESS_AND_HEALTH, TRAVEL_AND_LIFESTYLE, FASHION_AND_BEAUTY
 - Social media impact on academics
 # Tools and Packages used
+- tidyverse (data manipulation & wrangling)
+- nnet (multinomial logistic regression)
+- ResourceSelection (Hosmer - Lemeshow test)
+- pROC (ROC/AUC evaluation)
+- effects (predicted probabilities)
+- ggplot2 (visualization)
+# Methodology
+- Data cleaning
+   * Removed missing values
+   * Recorded variables into factors
+   * Ensured ordered levels where applicable
+- Descriptive statistics
+    * Frequency distributions for categorical variables
+    * Proportion of mental health outcomes by demographic and behavioral groups
+ - Bivariate Analysis
+    * Cross tabulations
+    * Chi - square tests of associations
+    * Proportional bar charts with statistical interpretation
+  - Modeling
+     * Binary Logistic Regression for DEPRESSION and ANXIETY
+     * Multinomial Logistic Regression for combined MENTAL_STATUS
+     * Variable selection using stepwise methods
+     * Interpretation via odds ratios and confidence intervals
+ - Model Diagnostics
+   * Hosmer - Lemeshow test (Goodness-of-fit)
+   * McFadden's Pseudo R^2
+   * Accuracy and ROC AUC scores
+- Visualization
+   * Forest plots of odd ratios
+   * Bar charts of demographic variables
+   * Mosaic plots showing proportions of mental health outcomes in categorical variables
+# Key Results
+
