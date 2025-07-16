@@ -1,7 +1,7 @@
 # Social Media and Mental Health: A Data Analysis Project
 # Overview
 This project investigates the relationship between social media use and mental health outcomes(depression and anxiety) among university students. The analysis uses logistic regression modelling to uncover patterns, risk factors, and behavioral predictors that are statistically associated with mental health status.
-The dataset consists of 389 survey responses collected from university students including information on demographics, social media use habits, and indicators of anxiety and depression. 
+The dataset consists of 392 survey responses collected from university students including information on demographics, social media use habits, and indicators of anxiety and depression. 
 # Objectives
 - Explore how social media usage is associated with depression and anxiety
 - Identify key predictors of poor mental health outcomes
@@ -59,4 +59,28 @@ The dataset consists of 389 survey responses collected from university students 
    * Bar charts of demographic variables
    * Mosaic plots showing proportions of mental health outcomes in categorical variables
 # Key Results
+- Snapchat use, reading news on social media, and lack of fitness content engagement were significantly associated with higher odds of mental health symptoms.
+- AUC for the binary depression model is 0.73
+- McFadden's R^2 for multinomial model is 0.26
+# Visuals
+-
+# Repository Structure 
+-
+# Learnings and Takeaways
+- Learned how to fit and interpret logistic and multinomial models
+- Practiced data visualization for interpretation and communication
+- Understood how to evaluate model performance and perform diagnostics
+- Gained experience working with categorical data and survey analysis
+# Future Work
+- Expand the data set with more balanced class sizes
+- Use interaction terms or decision tree models for deeper analysis
+- Deploy a dashboard to explore mental health trends interactively
+# Contact
+Walter Areol
+
+Biostatistician|Data analyst
+
+Nairobi, Kenya
+
+o.walterareol@gmail.com
 
